@@ -1,5 +1,5 @@
 def reverse_each_word(str)
-  puts a
+  puts str
   a = str.split
   puts a
 end
