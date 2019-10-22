@@ -3,8 +3,8 @@ def reverse_each_word(str)
   ar = str.split
   p ar
   new_ar = ar.collect{|x| x.reverse}
-  p new_ar
   new_str = ""
-  new_str = new_ar.each{|x| new_str += "#{x} "}
+  i = 0 
+  while 
   p new_str
 end
